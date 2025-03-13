@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vercel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="header.css">
+
+    <style>
+      .picture{
+        height: 70%;
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+
+      .rectangle1{
+        height: 70%;
+        width: 68.5%;
+        margin-left: 160px;
+        margin-right: 100px;
+        border: solid;
+        border-width: 0.3px;
+        border-color: rgb(141, 141, 141);
+      } 
+
+      .rectangle2{
+        height: 70%;
+        width: 68.5%;
+        margin-left: 160px;
+        margin-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: solid;
+        border-width: 0.3px;
+        border-color: rgb(141, 141, 141);
+      } 
+
+      .text{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .image{
+        height: 20px;
+        width: 20px;
+        vertical-align: middle;
+        padding-bottom: 3px;
+      }
+
+      .texts{
+        margin: 0;
+        font-weight: bold;
+        font-size: 24px;
+      }
+
+      .box{
+        display:flex;
+        height: 40%;
+        width: 40%;
+        margin-left: 160px;
+        margin-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: solid;
+        border-width: 0.3px;
+        border-color: rgb(141, 141, 141);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="company">
+        <div class="left-header">
+          <div class="triangle"></div>
+
+          <p class="company-name">
+            Vercel 
+          </p>
+
+          <button class="marketing-values">
+            Products <i class="fa fa-chevron-down dropdownIcon"></i>
+            
+            <div class="menu1">
+              <div>
+                <p class="menu-name">
+                  DX Platform
+                </p>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/preview-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Previews 
+                    </div>
+
+                    <div class="icon-function">
+                      Helping teams ship 6x faster
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/ai-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      AI 
+                    </div>
+
+                    <div class="icon-function">
+                      Powering breakthroughs
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p class="menu-name">
+                  Manage Infrastructure
+                </p>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/fluid-compute-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Fluid Compute
+                    </div>
+
+                    <div class="icon-function">
+                      Servers, in serverless form
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/rendering-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Rendering
+                    </div>
+
+                    <div class="icon-function">
+                      Fast, scalable and reliable
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/Observability-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Observability 
+                    </div>
+
+                    <div class="icon-function">
+                      Trace every step
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/security-icon.jpeg">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Security
+                    </div>
+
+                    <div class="icon-function">
+                      Scale without compromising
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <p class="menu-name">
+                  Opened Source
+                </p>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/next.js-icon.jpeg">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Next.js
+                    </div>
+
+                    <div class="icon-function">
+                      The native Next.js platform
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/turborepo-icon.jpeg">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Turborepo 
+                    </div>
+
+                    <div class="icon-function">
+                      Speed with Enterprice scale
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/AI-SDK-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      AI SDK
+                    </div>
+
+                    <div class="icon-function">
+                      The AI toolkit for typescript
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+
+          <button class="marketing-values">
+            Solutions <i class="fa fa-chevron-down dropdownIcon"></i>
+
+            <div class="menu2">
+              <div>
+                <p class="menu-name">
+                  Use Cases
+                </p>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/ai-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      AI Apps 
+                    </div>
+
+                    <div class="icon-function">
+                      Deploy at the speed of AI
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/composable-commerce-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Composable Commerce 
+                    </div>
+
+                    <div class="icon-function">
+                      Power storefronts that convert
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/marketing-sites-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Marketing Sites 
+                    </div>
+
+                    <div class="icon-function">
+                      Launch campaigns fast
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/multi-tenant-platforms-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Multi-tenant Platforms
+                    </div>
+
+                    <div class="icon-function">
+                      Scale apps with one scalebase
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/web-apps-icon.jpeg">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Web Apps
+                    </div>
+
+                    <div class="icon-function">
+                      Ship features, not infrastructure
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p class="menu-name">
+                  Users
+                </p>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/platform-engineers-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Platform Engineers
+                    </div>
+
+                    <div class="icon-function">
+                      Automate away petition
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/design-engineers-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Design Enginners
+                    </div>
+
+                    <div class="icon-function">
+                      Deploy for every idea
+                    </div>
+                  </div>
+                </div>
+          </button>
+
+          <button class="marketing-values">
+            Resources <i class="fa fa-chevron-down dropdownIcon"></i>
+
+            <div class="menu3">
+              <div>
+                <p class="menu-name">
+                  Tools
+                </p>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/AI-SDK-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Resouce Center
+                    </div>
+
+                    <div class="icon-function">
+                      Todays best practices
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/marketplae-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Marketplace
+                    </div>
+
+                    <div class="icon-function">
+                      Extend and automate workflows
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/web-apps-icon.jpeg">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Templates
+                    </div>
+
+                    <div class="icon-function">
+                      Jumpstart app develpment
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/guides-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Guides
+                    </div>
+
+                    <div class="icon-function">
+                      Find help quickly
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/partner-finder-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Partner Finder
+                    </div>
+
+                    <div class="icon-function">
+                      Get help from solution partners
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p class="menu-name">
+                  Company
+                </p>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/customers-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Customers
+                    </div>
+
+                    <div class="icon-function">
+                      Trusted by the best teams
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/blog-icon.jpeg">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Blog
+                    </div>
+
+                    <div class="icon-function">
+                      The latest posts and changes
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/changelog-icon.jpeg">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Changelog
+                    </div>
+
+                    <div class="icon-function">
+                      See what saved
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="border">
+                    <img class="icons" src="vercel-icons/press-icon.png">
+                  </div>
+                
+                  <div>
+                    <div class="icon-name">
+                      Press
+                    </div>
+
+                    <div class="icon-function">
+                      Read the latest news
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+
+          <button class="marketing-values">
+            Enterprise
+          </button>
+
+          <button class="marketing-values">
+            Docs
+          </button>
+
+          <button class="marketing-values">
+            Pricing
+          </button>
+        </div>
+
+        <div class="right-header">
+          <button class="details">
+            Log In
+          </button>
+
+          <button class="details">
+            Contact
+          </button>
+
+          <button class="details white">
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <img class="picture" src="vercel-picture/picture.png">
+      <div class="rectangle1">
+        <div class="text">
+          <p class="texts">
+            Develop with your favorite tools >_
+          </p>
+
+          <p class="texts">
+            Launch globally, instantly <img class="image" src="vercel-icons/rendering-icon.png"> Keep pushing <img class="image" src="vercel-picture/picture2.png">
+          </p>
+        </div>
+      </div>
+      <div class="rectangle2"></div>
+      <div class="rectangle">
+        <div class="box">
+
+        </div>
+
+        <div class="box">
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
